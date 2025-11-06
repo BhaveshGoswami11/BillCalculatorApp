@@ -6,13 +6,13 @@ A simple and intuitive iOS application built with **Swift** and **UIKit** that h
 
 ## 📱 Features
 
-- ✅ Enter bill amount, tip percentage, and number of people  
-- ✅ Calculates total amount including tip  
-- ✅ Calculates each person's share  
-- ✅ Displays results on a second screen (ResultViewController)  
-- ✅ Shows dynamic image based on tip percentage (low, medium, high)  
-- ✅ Includes reset button to clear inputs  
-- ✅ Basic input validation and alert messages  
+-  Enter bill amount, tip percentage, and number of people  
+-  Calculates total amount including tip  
+-  Calculates each person's share  
+-  Displays results on a second screen (ResultViewController)  
+-  Shows dynamic image based on tip percentage (low, medium, high)  
+-  Includes reset button to clear inputs  
+-  Basic input validation and alert messages  
 
 ---
 
@@ -60,7 +60,7 @@ The app navigates to the ResultViewController, passing all computed values using
 
 Result screen displays the formatted summary and a matching image.
 
-🧠 Key Concepts Used
+## Key Concepts Used
 @IBOutlet and @IBAction connections
 
 prepare(for:sender:) for data passing between view controllers
@@ -76,7 +76,7 @@ Storyboard segue navigation
 
 Make sure you’ve added these images in your Assets.xcassets folder.
 
-🚀 Future Enhancements
+## Future Enhancements
 Add dark mode support
 
 Include currency formatting based on locale
@@ -87,10 +87,10 @@ Integrate with SwiftUI
 
 Save previous bills using CoreData
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Bhavesh Goswami
 📍 Graduate Student – Applied Computer Science
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and share with attribution.
